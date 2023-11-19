@@ -1,0 +1,101 @@
+/* seletor {parametro: valor} */
+body{
+    font-family: Arial;
+    /* padding: 20px; */
+    background-color: rgb(221, 170, 178);
+}
+
+
+/* estilizando o cabeçalho da minha página */
+header{
+    padding: 25px;
+    text-align: center;
+    background: rgb(255, 192, 234);
+}
+
+/* estilizando meu navbar */
+.lista1{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+/* estilizando meus links */
+a{
+    color: black;
+}
+
+/* estilizando meu icone */
+.icone{
+    width: 200px;
+    height: 250px;
+    border: 5px rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+/* ajustando a parte principal da minha página
+para as divs ficarem uma ao lado da outra e
+centralizadas */
+main{
+    display:flex;
+    background: pink;
+    text-align: center; 
+    justify-content: space-evenly;
+}
+
+
+/* ajustando o espaço entre os elementos da lista */
+.lista{
+    padding: 20px;
+}
+
+/*estilizando a última divisao da página */
+footer{
+    background: rgb(249, 113, 192);
+    padding: 16px 0;
+    margin-top: 16px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    /* background-image: url('https://images.tcdn.com.br/img/img_prod/1102995/180_papel_de_parede_margaridas_bege_p_213_1_225bb1ca3221f5c6232a21297abc559f.jpg'); */
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 24%;
+}
+
+/* estilizando as imagens da minha página
+colocando sombras e arredondando as margens */
+.imagem{
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12); 
+    border-radius: 1%;
+    width: 200px;
+    height: 300px;
+
+}
+
+/* colocando a imagem do meu cantor favorito e o link 
+para minha musica favorita um embaixo do outro */
+.artistas.favoritos{
+    display: block;
+}
+
+/* retirando os sublinhados dos links */
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    text-decoration: underline;
+}
