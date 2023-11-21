@@ -43,6 +43,15 @@ main{
     padding: 20px;
 }
 
+/* tornando o site da minha biografia responsivo
+o máximo de largura que o site ocupa é 724px
+e o mínimo é 320px(largura da maioria dos celulares) */
+.biografia{
+    min-width: 320px;
+    width: 724px;
+    
+}
+
 
 /* ajustando o espaço entre os elementos da lista */
 .lista{
