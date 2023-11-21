@@ -46,7 +46,7 @@ main{
 /* tornando o site da minha biografia responsivo
 o máximo de largura que o site ocupa é 724px
 e o mínimo é 320px(largura da maioria dos celulares) */
-.biografia{
+.responsivo{
     min-width: 320px;
     max-width: 724px;
     margin: auto;
