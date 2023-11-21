@@ -4,16 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contatos</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/formulario.css">
 </head>
 <body>
-    <ul>
-        <li>
-            Email: contatolarissaalcantara@gmail.com
-        </li>
-        <li>
-            telefone: (21)96728-7078
-        </li>
-    </ul>
+    
+    <header>
+    <!-- fazendo o formulario para o usuario preencher-->
+    <h2 class="titulo">Formulário para entrar em contato</h2>
+    <br>
+    </header>
+
+    <form class="formulario">
+        <p>Complete suas informações:</p><br>
+        <div>
+            <label>Nome:</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+        <div>
+            <label>Celular:</label>
+            <input type="text" name="celular" id="celular">
+        </div>
+        <br>
+
+        <!-- email -->
+        <div>
+            <label>Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+            <label>Mensagem:</label>
+            <input type="mensagem" name="mensagem" id="mensagem">
+        </div>
+        <br>
+
+    </form>
+    <div>
+        <!-- botao com varias escolhas -->
+        <label><h4>Como você me encontrou?</h4></label>
+        <div>
+            <label>
+                <input type="radio" name="redesocial" value="instagram">Instagram
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="radio" name="redesocial" value="linkedin">Linkedin
+            </label>
+        </div>
+        <div>
+            <label>
+                <input type="radio" name="redesocial" value="github">Github
+            </label>
+        </div>
+    </div>
+    <footer>
+        <button>Enviar</button>
+    </footer>
 </body>
 </html>
