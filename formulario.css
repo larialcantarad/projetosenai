@@ -17,17 +17,11 @@ body{
 /* estilizando os titulos */
 .titulo{
     font-family: sans-serif;
-    margin-left: 7%;
 }
 
 /* tirando a borda do formulario */
 fieldset{
     border: 0;
-}
-
-.meuscontatos{
-    font-family: sans-serif;
-    margin-left: 10%;
 }
 
 input{
@@ -50,4 +44,12 @@ form{
 
 footer{
     display: block;
+}
+
+/* tornando minha página responsiva */
+.responsivo{
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    
 }
